@@ -1,5 +1,5 @@
 {
-  "name": "chat-history-saver",
+  "name": "claude-code-history-saver",
   "description": "Auto-exports Claude Code conversations as readable markdown files before context compaction and on session end",
   "version": "1.0.0",
   "author": {
