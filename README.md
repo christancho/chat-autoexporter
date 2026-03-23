@@ -117,6 +117,10 @@ All errors are non-fatal. The hook will never block Claude Code operation:
 - Malformed JSONL lines: skipped
 - Missing Node and jq: exits with a stderr warning
 
+## Author
+
+[Christian Mendieta](https://christianmendieta.ca)
+
 ## License
 
 MIT
