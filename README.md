@@ -1,4 +1,4 @@
-# Chat History Saver
+# Chat Auto Exporter
 
 A Claude Code plugin that automatically saves your conversations as readable text files before context compaction and when sessions end. Never lose a conversation again.
 
