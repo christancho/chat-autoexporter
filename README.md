@@ -66,8 +66,10 @@ Exports use a terminal-style format that mirrors the Claude Code CLI:
 
 ### As a Claude Code plugin (recommended)
 
-```bash
-claude plugin add /path/to/claude-history-saver
+Clone the repo, then inside a Claude Code session run:
+
+```
+/plugin install /path/to/claude-code-history-saver
 ```
 
 The hooks register automatically — no manual configuration needed.
@@ -76,7 +78,7 @@ The hooks register automatically — no manual configuration needed.
 
 ```bash
 git clone https://github.com/christancho/claude-code-history-saver.git
-cd claude-history-saver
+cd claude-code-history-saver
 ./install.sh
 ```
 
@@ -85,7 +87,7 @@ The install script copies the hooks to `~/.claude/hooks/` and merges the hook co
 ### Local testing
 
 ```bash
-claude --plugin-dir /path/to/claude-history-saver
+claude --plugin-dir /path/to/claude-code-history-saver
 ```
 
 ## Where exports are saved
