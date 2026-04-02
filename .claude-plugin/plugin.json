@@ -7,6 +7,5 @@
   },
   "repository": "https://github.com/christancho/chat-autoexporter",
   "license": "MIT",
-  "keywords": ["hooks", "export", "chat", "history", "session"],
-  "hooks": "./hooks/hooks.json"
+  "keywords": ["hooks", "export", "chat", "history", "session"]
 }

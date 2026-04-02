@@ -64,7 +64,7 @@ Exports use a terminal-style format that mirrors the Claude Code CLI:
 
 ## Installation
 
-### As a Claude Code plugin (recommended)
+### From the marketplace (recommended)
 
 Inside a Claude Code session run:
 
@@ -82,22 +82,7 @@ Clone the repo, then inside a Claude Code session run:
 
 ```
 /plugin install /path/to/chat-autoexporter
-```
-
-### Manual install
-
-```bash
-git clone https://github.com/christancho/chat-autoexporter.git
-cd chat-autoexporter
-./install.sh
-```
-
-The install script copies the hooks to `~/.claude/hooks/` and merges the hook configuration into your existing `~/.claude/settings.json` without overwriting anything.
-
-### Local testing
-
-```bash
-claude --plugin-dir /path/to/chat-autoexporter
+/reload-plugins
 ```
 
 ## Where exports are saved
