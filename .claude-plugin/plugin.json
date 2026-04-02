@@ -3,7 +3,7 @@
   "description": "Auto-exports Claude Code conversations as readable text files before context compaction, on session end, and on /clear",
   "version": "1.0.1",
   "author": {
-    "name": "Christian Mendieta"
+    "name": "Christian Mendieta @ Boralio AI"
   },
   "repository": "https://github.com/christancho/chat-autoexporter",
   "license": "MIT",
